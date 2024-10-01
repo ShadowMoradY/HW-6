@@ -1,0 +1,89 @@
+@import url(reset.css);
+
+.conteiner  {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.first-block {
+    background: blue;
+    font-size: 0;
+}
+
+
+.first-block>div {
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    font-size: 20px;
+    display: inline-block;
+    outline: 2px solid red;
+    vertical-align: top;
+}
+
+.second-block {
+    font-size: 0;
+    background: orange;
+}
+.first div,
+.second div {
+    outline: 2px solid red;
+}
+
+.second-block>div {
+    width: 800px;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+}
+.second-block>div>div {
+    height: 200px;
+}
+
+.second-block>div+div {
+    width: 400px;
+}
+
+.second-block>div+div>div {
+    height: 133.33px;
+}
+
+.third-block {
+    background: green;
+    font-size: 0;
+}
+.third-block>div {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.outline {
+    outline: 2px solid red;
+}
+
+
+.h-200 {
+    height: 200px;
+}
+
+.w-400 {
+    width: 400px;
+}
+
+.w-800 {
+    width: 800px;
+}
+
+.d-inline {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.h-100 {
+    height: 100px;
+}
+.h-400 {
+    height: 400px;
+}
