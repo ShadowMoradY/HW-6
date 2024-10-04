@@ -50,7 +50,6 @@
 
 .third-block {
     background: green;
-    font-size: 0;
 }
 .third-block>div {
     width: 400px;
@@ -78,7 +77,6 @@
 
 .d-inline {
     display: inline-block;
-    font-size: 20px;
 }
 
 .h-100 {
@@ -86,4 +84,17 @@
 }
 .h-400 {
     height: 400px;
+}
+.vatop {
+    vertical-align: top;
+}
+
+.w-auto {
+    width: auto;
+}
+.fz-0 {
+    font-size: 0;
+}
+.fz-20 {
+    font-size: 20px;
 }
